@@ -12,9 +12,3 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-
-      - name: Deploy Github page
-        uses: peaceiris/action-gh-pages@v3
-        with:
-          github_token: ${{ secrets.MzcN0eGfLax4iwzkMU3V05LtkmXNBl2e7OIb}}
-          publish_dir: ../../home/
